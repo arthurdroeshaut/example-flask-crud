@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+RUN git clone
 WORKDIR /example-flask-crud
 SOURCE venv/bin/activate
 RUN pip install --upgrade pip
